@@ -1,0 +1,66 @@
+body {
+    background-image: url('Campus.jpg');
+    color: white; 
+    background-size: cover; 
+    background-position: center center; 
+    overflow-x: hidden; 
+    padding: 0; 
+    margin: 0; 
+    font-family: 'Times New Roman', Times, serif; 
+     
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif; 
+    text-align: center; 
+    margin-top: 20px; 
+    font-size: 40px; 
+    text-shadow: 5px 5px 5px black; 
+
+}
+
+.cms-table-container {
+    font-size: 35px;
+    margin-top: 20px;
+    width: 80%; 
+    margin: auto; 
+
+}
+
+.cms-table-row {
+    display: flex; 
+
+}
+
+.cms-table-column {
+    background-color: rgba(204, 206, 211, 0.8);
+    margin: 2px; 
+    padding: 15px; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+
+.cms-name{
+    flex-basis: 20%
+}
+
+.cms-phone{
+
+}
+div{
+
+    width: 24%; 
+
+    margin: auto; 
+}
+input, button{
+    padding: 10p;
+    display: inline-block; 
+}
+
+li{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: -40;
+    list-style: none;
+}
